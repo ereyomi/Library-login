@@ -1,0 +1,115 @@
+* {
+	margin:0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height:100%;
+	background: #006666;
+}
+#container {
+	width: 100%;
+	height: 100%;	
+}
+
+.box {
+	width: 50%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 30px auto;
+	text-align: center;
+}
+.top {
+	width: 100%;
+	height: auto;
+
+}
+.top p {
+	color:#006666 ;
+	background: white;
+	font-size: 25px;
+	padding: 10px;
+}
+.box1 {
+	width:100%;
+	height: auto;
+}
+input[type=name] {
+	padding: 10px;
+	margin:10px;
+	border-radius: 10px;
+}
+input[type=password] {
+	padding: 10px;
+	margin:10px;
+	border-radius: 10px;
+}
+.btn {
+	border:3px solid white;
+	padding: 10px 15px;
+	background: none;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: .5s;
+}
+.btn a {
+	text-decoration: none;
+	color:white;
+}
+.btn:hover {
+	padding: 10px 20px;
+	background:  #003333;
+	transition: .5s;
+}
+.btn a:hover {
+	color:yellow;
+}
+.boxofbox {
+
+	width: 80%;
+	height: auto;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	margin: 30px auto;
+	text-align: center;
+}
+.btn-logout {
+	top: 0;
+	left:0;
+	border:none;
+	padding: 10px 15px;
+	background: none;
+	border-radius: 10px;
+	cursor: pointer;
+	margin:10px;
+	transition: .5s;
+}
+.btn-logout:hover {
+	background: #660000;
+}
+.btn-logout a {
+	text-decoration: none;
+	color:white;
+
+}
+.box2 {
+	width: 30%;
+	height: 150px;
+	margin: 1%;
+	display: inline-flex;
+	background: #66ffff;
+	border-radius: 10px;
+	cursor: pointer;
+	
+}
+.box2 a {
+	text-decoration: none;
+	margin: 10px;
+	font-size: 30px;
+	color:#003333;
+	text-align: center;
+}
+.box2 a:hover, .box2:hover {
+	background: #003333;
+	color: white;
+}
